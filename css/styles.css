@@ -1,0 +1,22 @@
+/* Header */
+header {
+  height: 10%;
+}
+img {
+  max-width: 300px;
+}
+
+
+/* Main */
+main {
+height: 80%;
+}
+
+
+/* Footer */
+footer {
+  height: 10%;
+}
+footer ul.flex {
+  flex-direction: row;
+}
