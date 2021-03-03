@@ -1,22 +1,32 @@
 /* Header */
-header {
-  height: 10%;
-}
-img {
-  max-width: 300px;
+
+.header img {
+  max-width: 500px;
 }
 
 
 /* Main */
-main {
-height: 80%;
+
+.main a {
+  font-size: .8em;
 }
 
+.main .btn {
+  display: block;
+  width: 100%;
+}
+
+.main .btn .btn-2 {
+  display: block;
+  width: 100%;
+}
 
 /* Footer */
-footer {
-  height: 10%;
-}
-footer ul.flex {
+
+.footer ul.flex {
   flex-direction: row;
+}
+
+.footer li {
+  margin: 0 .5rem;
 }

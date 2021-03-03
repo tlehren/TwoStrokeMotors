@@ -11,47 +11,61 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="header">
         <section class="container flex">
             <img src="images/TWO STROKE MOTORS-LOGO WHITE.png" alt="">
         </section>
     </header>
 
     <!-- Main -->
-    <main>
-        <section class="container flex">
-            <h1>I Really Don't Feel So Good</h1>
-            <p>Check out the debut EP from Two Stroke Motors</p>
-            <div class="grid grid-3">
-              <button>button</button>
-              <button>button</button>
-              <button>button</button>
+    <main class="main">
+        <section class="container flex py-3">
+            <h3>I Really Don't Feel So Good</h3>
+            <p>Debut EP from Two Stroke Motors</p>
+            <div class="btns grid grid-3">
+              <a class="btn btn-2" href="https://www.youtube.com/watch?v=aaKsP0ab7mk&ab_channel=TwoStrokeMotors" target="_blank">"To The Mine" Video</a>
+              <a class="btn btn-2" href="https://www.youtube.com/watch?v=WQZ8sTj18Zk&ab_channel=TwoStrokeMotors" target="_blank">"Ferry" Video</a>
+              <a class="btn btn-2" href="#" onclick="randomSite();">Random Link</a>
             </div>
+            <a class="btn" href="#" target="_blank">Pre-Save Album</a>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <section class="container flex">
             <p>Follow us</p>
             <ul class="social flex">
                 <li>
-                    <a href="https://open.spotify.com/artist/7vDFoYLOoE9zWJiFVYq6cG?si=67JS7E9oTLmRGLyNwn36qw&amp;nd=1"><i class="fab fa-spotify fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-spotify fa-lg"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/phattjamesmusic/?hl=en"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="https://www.instagram.com/twostrokemotors/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/channel/UCweugq4cUq5x0T0hfLTOOoA"><i class="fab fa-youtube fa-lg"></i></a>
+                    <a href="https://www.youtube.com/channel/UCNIyhd1aM31gNolOEfbTcpg" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/phattjamesmusic/"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="https://www.facebook.com/twostrokemotors" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
                 </li>
             </ul>
         </section>
 
     </footer>
-    
-    
+    <script>
+        var sites = [
+            'https://www.youtube.com/watch?v=_r0n9Dv6XnY&ab_channel=nailofgilead',
+            'hhttps://www.youtube.com/watch?v=C1JD3a_FuEY&ab_channel=nailofgileadnailofgilead',
+            'https://www.nbcsports.com/edge/football/nfl/player/11856/jeff-wilson',
+            'https://www.unomaha.edu/international-studies-and-programs/center-for-afghanistan-studies/about-us/jack-shroder.php',
+            'https://www.youtube.com/watch?v=m9kaQ3ZKPE0'
+        ];
+
+        function randomSite() {
+            var i = parseInt(Math.random() * sites.length);
+            location.href = sites[i];
+        }
+    </script>
 </body>
+
 </html>
