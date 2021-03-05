@@ -11,6 +11,10 @@
   font-size: .8em;
 }
 
+/* .main a:hover {
+  transform: scale(1.05);
+} */
+
 .main .btn {
   display: block;
   width: 100%;
@@ -29,4 +33,29 @@
 
 .footer li {
   margin: 0 .5rem;
+}
+
+/* Animation */
+.header {
+  animation: fade-in 2s;
+}
+
+.main {
+  animation: fade-in 3s;
+}
+
+.footer {
+  animation: fade-in 4.5s;
+}
+
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
