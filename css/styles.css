@@ -1,29 +1,23 @@
+/* Layout */
+.pancake {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  
+}
+
+
 /* Header */
 
 .header img {
-  max-width: 500px;
+  max-width: 60%;
 }
 
 
 /* Main */
 
-.main a {
-  font-size: .8em;
-}
 
-/* .main a:hover {
-  transform: scale(1.05);
-} */
-
-.main .btn {
-  display: block;
-  width: 100%;
-}
-
-.main .btn .btn-2 {
-  display: block;
-  width: 100%;
-}
 
 /* Footer */
 
@@ -35,19 +29,50 @@
   margin: 0 .5rem;
 }
 
+.footer a {
+  font-size: .8em;
+}
+
+
+.footer.btn {
+  display: block;
+  width: 100%;
+}
+
+.footer .btn .btn-2 {
+  display: block;
+  width: 100%;
+}
+
+.footer a:hover {
+  opacity: 75%;
+}
+
+/* Buttons Grid */
+.footer .btns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: .5em;
+}
+
+.footer .btns a:last-child {
+  grid-column: 1/4;
+}
+
+
+
 /* Animation */
 .header {
   animation: fade-in 2s;
 }
 
 .main {
-  animation: fade-in 3s;
+  animation: fade-in 2.5s;
 }
 
 .footer {
-  animation: fade-in 4.5s;
+  animation: fade-in 3s;
 }
-
 
 
 @keyframes fade-in {
@@ -58,4 +83,18 @@
   100% {
     opacity: 1;
   }
+}
+
+/* Mobile */
+
+@media(max-width: 760px) {
+  .footer .btns {
+    grid-template-columns: 1fr;
+  }
+  .footer .btns a:last-child {
+    grid-column: 1;
+  }
+
+
+
 }

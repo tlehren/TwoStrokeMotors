@@ -11,6 +11,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  transition: 0.3s ease-in-out;
 }
 
 body {
@@ -24,7 +25,6 @@ body {
   background-position: 50% 50% ;
   background-blend-mode: multiply;
   background-repeat: none;
-  height: 100vh;
 }
 
 input, textarea, button {
@@ -92,7 +92,7 @@ img {
 
 .btn:hover {
   opacity: 75%;
-  transition: 0.3s ease-in-out;
+  
 }
 
 .btn-2 {
