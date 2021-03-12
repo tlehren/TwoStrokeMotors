@@ -2,7 +2,7 @@
 .pancake {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 100vh;
   
 }
