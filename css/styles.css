@@ -1,17 +1,22 @@
 /* Layout */
 .pancake {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 100vh;
-  
+  display: grid;
+  min-height: 100vh;
 }
 
 
 /* Header */
 
 .header img {
-  max-width: 60%;
+  max-width: 100%;
+  height: auto;
+  width: 45%;
+}
+
+@media(max-width: 760px) {
+  .header img {
+    width: 75%;
+  }
 }
 
 
