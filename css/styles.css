@@ -22,7 +22,11 @@
 
 /* Main */
 
-
+@media(max-width: 760px) {
+  .main {
+    margin-top: -5em;
+  }
+}
 
 /* Footer */
 
