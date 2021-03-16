@@ -334,7 +334,7 @@ blockquote {
 
 /* Devices */
 
-/* @media(max-width: 768px) {
+@media(max-width: 768px) {
   body{
     text-align: center;
   }
@@ -348,4 +348,4 @@ blockquote {
   .container {
     width: 95%;
   }
-} */
+}
