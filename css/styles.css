@@ -3,11 +3,14 @@
   display: grid;
   grid-template-rows: auto, 1fr, auto;
   height: 100vh;
+
 }
 
 
 /* Header */
-
+.header {
+  align-self: start;
+}
 
 .header img {
   max-width: 100%;
