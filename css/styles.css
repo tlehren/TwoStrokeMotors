@@ -1,16 +1,21 @@
 /* Layout */
+html {
+  height: -webkit-fill-available;
+}
+
 .pancake {
   display: grid;
   grid-template-rows: auto, 1fr, auto;
-  height: 100vh;
   align-items: center;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
-@media(max-width: 500px) {
+/* @media(max-width: 500px) {
   .pancake {
     height: 85vh;
   }
-}
+} */
 
 
 /* Header */
