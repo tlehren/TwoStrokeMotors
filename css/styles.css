@@ -68,6 +68,10 @@ html {
   opacity: 75%;
 }
 
+#copy {
+  font-size: .7em;
+}
+
 /* Buttons Grid */
 .footer .btns {
   display: grid;
@@ -77,6 +81,12 @@ html {
 
 .footer .btns a:last-child {
   grid-column: 1/4;
+}
+
+/* tour header */
+
+.tour-header img {
+  max-width: 150px;
 }
 
 
