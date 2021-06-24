@@ -89,6 +89,10 @@ html {
   max-width: 150px;
 }
 
+.tour .container {
+  width: 75%;
+}
+
 
 
 /* Animation */
